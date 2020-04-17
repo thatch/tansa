@@ -3,7 +3,7 @@ import re
 
 class NameValidator():
     def check_end_symbol(self, *args):
-        pattern = "[\?\*]$"
+        pattern = r"[?*]$"
         end_with_symbol = re.search(pattern, *args)
         return end_with_symbol
 
