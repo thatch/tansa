@@ -1,15 +1,27 @@
 # Name for JSON
-A filter to get the json file content, type a file name in regular expression. 
+A filter to get the json file content from filename in a command line terminal. Type less with a file name along with ```tansa```, while the tansa takes care of frustrating search. 
 
 ## Quick Start
-The simple installation
-	pip setup.py install
+### Installation
+The simplest installation method.
 
-## Sample
-	import tansa
+	pip install tansa
 
-	file_list = tansa.FileFinder("sample")
-	# list of file path starts from sample
+### Sample
+While sample.json is in your current/nested directory,
 
-	tansa.JReader().json_dispenser(file_list)
-	# list of json file contents
+	$ tansa sample
+
+which will display json contents.
+
+	[{'sample.json':{key:value}, 'sample2.json':{key:value}}]
+
+## Development
+The tansa takes one argument as a file name to look for. Customers are free from entering the exact file name such as suffix because the tansa append ```*``` to the input as its suffix.
+
+
+### Test
+In progress
+
+### Contact
+If it turns out that you may have found a bug, please open an issue.
