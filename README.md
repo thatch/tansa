@@ -24,4 +24,4 @@ The tansa takes one argument as a file name to look for. Customers are free from
 In progress
 
 ### Contact
-If it turns out that you may have found a bug, please open an issue.
+If it turns out that you may have found a bug, please open [an issue](https://github.com/k0a8t1o6/tansa/issues/new/choose).
