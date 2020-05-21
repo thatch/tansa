@@ -4,7 +4,7 @@ setup(
     name='tansa',
     version='0.0.1',
     description='JSON extractor from file path',
-    long_description=open('readme.md').read(),
+    long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     author='Takashi Kato',
     author_email='taka@m.atelierpal.space',
